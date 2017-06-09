@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    self.chomp.gsub(/([\.\?\!])+/, '\1').split(/[?!.]/).count
+    self.gsub(/([\.\?\!])+/, '\1').split(/[?!.]/).count
   end
 
 
